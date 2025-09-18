@@ -1,0 +1,60 @@
+# ------------------------------
+# C++ / GCC / Linux
+# ------------------------------
+
+# File oggetto e compilati
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+
+# Eseguibili generici (es. salve_mondo)
+salve_mondo
+*.bin
+
+# Directory di build (se usata in futuro)
+build/
+dist/
+
+# ------------------------------
+# VS Code
+# ------------------------------
+
+# Escludo tutto tranne le config utili
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+
+# File di workspace personali
+*.code-workspace
+
+# ------------------------------
+# Sistema operativo
+# ------------------------------
+
+# Linux
+*~
+*.swp
+*.swo
+
+# MacOS (se userai anche lì)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows (se userai anche lì)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ------------------------------
+# Altro
+# ------------------------------
+
+# Log e cache
+*.log
+.cache/
