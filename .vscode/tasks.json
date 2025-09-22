@@ -2,19 +2,19 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build active file",
+            "label": "build and run in external terminal",
             "type": "shell",
-            "command": "g++",
+            "command": "xterm",
             "args": [
-                "${file}",
-                "-g",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "-hold",
+                "-e",
+                "g++ '${file}' -o '${fileDirname}/${fileBasenameNoExtension}' && '${fileDirname}/${fileBasenameNoExtension}'"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": ["$gcc"]
         }
     ]
 }
