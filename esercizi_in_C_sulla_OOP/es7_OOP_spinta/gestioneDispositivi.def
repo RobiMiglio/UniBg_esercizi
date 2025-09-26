@@ -1,0 +1,12 @@
+/*
+X(tipo, annoDiLancio, funzioneRiproduci, funzioneRegolaFunzionalita, tipoFunzionalita, valoreInizialeFunzionalita, flagFunzionalita, valoreFlagFunzionalita)
+*/
+#define DISPOSITIVI_X \
+X(RADIO,      2000, riproduciMusica,      regolaVolume,            VOLUME,              0, AUDIO, 0) \
+X(TELEVISORE, 2001, riproduciFilm,        regolaLuminosita,        LUMINOSITA,          0, VIDEO, 0) \
+X(SMARTPHONE, 2002, riproduciMusicaOFilm, regolaVolumeOLuminosita, VOLUME_O_LUMINOSITA, 0, AUDIO, 1) \
+X(TABLET,     2015, riproduciMusicaOFilm, regolaVolumeOLuminosita, VOLUME_O_LUMINOSITA, 0, AUDIO, 2)
+
+#define FLAG_FUNZIONALITA_X \
+X(AUDIO, 1<<0) \
+X(VIDEO, 1<<1)

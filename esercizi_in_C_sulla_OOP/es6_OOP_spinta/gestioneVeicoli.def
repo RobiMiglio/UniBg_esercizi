@@ -1,0 +1,11 @@
+// ==========================================================
+// Lista centralizzata dei veicoli con attributi, funzioni e valore risorsa
+// Sintassi: X(nomeOggetto, tipoRisorsa, funzioneAccelera, funzioneStampa, valoreRisorsa)
+// ==========================================================
+
+#define VEICOLI_X \
+X(POLO,    CARBURANTE,    AcceleraBenzina,    stampaStatoBenzina,    70) \
+X(TESLA,   BATTERIA,      AcceleraElettrica,  stampaStatoElettrica,  80) \
+X(GOLF,    CARBURANTE,    AcceleraBenzina,    stampaStatoBenzina,    60) \
+X(PANDA,   BATTERIA,      AcceleraElettrica,  stampaStatoElettrica,  90) \
+X(FERRARI, CARBURANTE,    AcceleraBenzina,    stampaStatoBenzina,    70)

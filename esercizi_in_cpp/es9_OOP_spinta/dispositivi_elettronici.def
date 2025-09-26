@@ -1,0 +1,5 @@
+//X(id, tipo, nome, livelloBatteria, dettaglio, funzioneStato, funzioneRicarica)
+#define DISPOSITIVI_X \
+X(0, SMARTPHONE, NOKIA,   20, 20,      statoSmartphone, ricaricaSmartphone) \
+X(1, LAPTOP,     APPLE,   30, 22.5,    statoLaptop,     ricaricaLaptop) \
+X(2, SMARTWATCH, SAMSUNG, 40, 1000,    statoSmartwatch, ricaricaSmartwatch)

@@ -1,0 +1,5 @@
+//X(tipo, titolo, anno, tipoProfessionista, nomeDelProfessionista, tipoDettaglio, dettaglio, funzioneStampaInfo)
+#define CATALOGO_X \
+X(LIBRO,           PINOCCHIO,      2000, AUTORE,   LUCA,  NUMERO_PAGINE,   500, stampaInformazioniLibro) \
+X(FILM,            PAPERINO,       2001, REGISTA,  IVAN,  ORE_FILM,        2.5, stampaInformazioniFilm) \
+X(ALBUN_MUSICALE,  VASCO_IN_TOUR,  2002, ARTISTA,  MARCO, ORE_TOT_CANZONI, 4.2, stampaInformazioniAlbumMusicale)
