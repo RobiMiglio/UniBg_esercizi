@@ -2,13 +2,16 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build and run in external terminal",
+            "label": "build active file",
             "type": "shell",
-            "command": "xterm",
+            "command": "g++",
             "args": [
-                "-hold",
-                "-e",
-                "g++ '${file}' -o '${fileDirname}/${fileBasenameNoExtension}' && '${fileDirname}/${fileBasenameNoExtension}'"
+                "-Wall",
+                "-Wextra",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "group": {
                 "kind": "build",

@@ -2,14 +2,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run/Debug active file (external console)",
+            "name": "Debug active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "cwd": "${fileDirname}",
             "stopAtEntry": false,
-            "externalConsole": true,
+            "externalConsole": false,
             "preLaunchTask": "build active file",
             "MIMode": "gdb",
             "setupCommands": [

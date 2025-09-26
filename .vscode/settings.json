@@ -1,3 +1,7 @@
 {
-    "terminal.external.linuxExec": "gnome-terminal"
+    "terminal.external.linuxExec": "gnome-terminal",
+    "files.associations":
+    {
+      "cstdlib": "cpp"
+    }
 }
